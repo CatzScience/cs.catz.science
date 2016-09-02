@@ -4,7 +4,7 @@ import           Data.Monoid (mappend)
 import           Hakyll
 --------------------------------------------------------------------------------
 main :: IO ()
-main = hakyll $ do
+main = hakyllWith config $ do
   match "images/*" $ do
     route   idRoute
     compile copyFileCompiler
@@ -58,3 +58,8 @@ main = hakyll $ do
 -- postCtx =
 --   dateField "date" "%B %e, %Y" `mappend`
 --   defaultContext
+config :: Configuration
+config = defaultConfiguration
+  {
+    deployCommand = "echo 'put -r _site/* cs' | sftp -i $HOME/.ssh/id_ed25519-nova-web www@cs.catz.science"
+  }
