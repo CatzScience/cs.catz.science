@@ -17,9 +17,9 @@ Here is the schedule for Michaelmas 2016:
 |                        |                                |                 |                   |   Savage                                                     |
 |                        |                                |                 |                   | * 18:00 -- 18:30: Q&A and general discussion                 |
 +------------------------+--------------------------------+-----------------+-------------------+--------------------------------------------------------------+
-| ACM International      | Saturday 3rd Week (29/10/2016) | 11:00 -- 16:00  | Cambridge         | Please contact                                               |
-| Collegiate Programming |                                |                 |                   | [Nick](mailto:me@nickhu.co.uk) to register before 26/10/2016 |
-| Contest (UKIEPC)       |                                |                 |                   | if you are interested in participating                       |
+| ACM International      | Saturday 3rd Week (29/10/2016) | 11:00 -- 16:00  | Cambridge         | We won! [Full results](https://domjudge.bath.ac.uk)          |
+| Collegiate Programming |                                |                 | University        |                                                              |
+| Contest (UKIEPC)       |                                |                 | Compputer Lab     |                                                              |
 +------------------------+--------------------------------+-----------------+-------------------+--------------------------------------------------------------+
 | CS Talks               | Friday 6th Week (18/11/2016)   | 17:00 -- 18:3   | JCR Lecture       | *Titles will appear here when announced*                     |
 |                        |                                |                 | Theatre           |                                                              |
