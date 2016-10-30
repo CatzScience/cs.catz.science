@@ -1,6 +1,6 @@
 ---
 title: About
----
+...
 
 Catz Computer Science Society (CCSS) is a society for students of St Catherine's
 College, Oxford which is focused on computer science and related miscellanea.

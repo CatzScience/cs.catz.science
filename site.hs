@@ -33,6 +33,16 @@ main = hakyllWith config $ do
         >>= applyAsTemplate indexCtx
         >>= loadAndApplyTemplate "templates/default.html" indexCtx
         >>= relativizeUrls
+  match "irc.md" $ do
+    route $ setExtension "html"
+    compile $ do
+      let ircCtx =
+            constField "page-irc" "" `mappend`
+            defaultContext
+      pandocCompiler
+        >>= applyAsTemplate ircCtx
+        >>= loadAndApplyTemplate "templates/default.html" ircCtx
+        >>= relativizeUrls
   match "templates/*" $ compile templateBodyCompiler
   -- I don't think we need posts yet
   -- match "posts/*" $ do
