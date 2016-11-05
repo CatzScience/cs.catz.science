@@ -21,10 +21,19 @@ Here is the schedule for Michaelmas 2016:
 | Collegiate Programming |                                |                 | University        |                                                              |
 | Contest (UKIEPC)       |                                |                 | Compputer Lab     |                                                              |
 +------------------------+--------------------------------+-----------------+-------------------+--------------------------------------------------------------+
-| CS Talks               | Friday 6th Week (18/11/2016)   | 17:00 -- 18:3   | JCR Lecture       | *Titles will appear here when announced*                     |
+| Univ Maths & CS Social | Thursday 5th Week (10/11/2016) | 19:00 --        | Catz Hall         | Please fill in https://goo.gl/forms/L4xnXjUe0QjVG9a12 and    |
+|                        |                                |                 |                   | don't forget to book hall on Upay!                           |
++------------------------+--------------------------------+-----------------+-------------------+--------------------------------------------------------------+
+| CS Talks               | Friday 6th Week (18/11/2016)   | 17:00 -- 18:30  | JCR Lecture       | *Titles will appear here when announced*                     |
 |                        |                                |                 | Theatre           |                                                              |
++------------------------+--------------------------------+-----------------+-------------------+--------------------------------------------------------------+
+| ACM International      | Saturday 6th Week (19/11/2016) | ???             | University of     | By invitation only                                           |
+| Collegiate Programming | -- Sunday 6th Week (20/11/2016)|                 | Bath              |                                                              |
+| Contest (NWERC)        |                                |                 |                   |                                                              |
 +------------------------+--------------------------------+-----------------+-------------------+--------------------------------------------------------------+
 
 If you are involved with a similar society, and would like to do an event with us, please contact [Nick](mailto:nick.hu@stcatz.ox.ac.uk).
 
 This schedule is so far incomplete, so check back later!
+
+See the [archive](/archive.html) for things we've done.

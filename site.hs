@@ -5,7 +5,7 @@ import           Hakyll
 --------------------------------------------------------------------------------
 main :: IO ()
 main = hakyllWith config $ do
-  match "images/*" $ do
+  match "images/**" $ do
     route   idRoute
     compile copyFileCompiler
   match "css/*" $ do
@@ -44,30 +44,30 @@ main = hakyllWith config $ do
         >>= loadAndApplyTemplate "templates/default.html" ircCtx
         >>= relativizeUrls
   match "templates/*" $ compile templateBodyCompiler
-  -- I don't think we need posts yet
-  -- match "posts/*" $ do
-  --   route $ setExtension "html"
-  --   compile $ pandocCompiler
-  --     >>= loadAndApplyTemplate "templates/post.html"    postCtx
-  --     >>= loadAndApplyTemplate "templates/default.html" postCtx
-  --     >>= relativizeUrls
-  -- create ["archive.html"] $ do
-  --   route idRoute
-  --   compile $ do
-  --       posts <- recentFirst =<< loadAll "posts/*"
-  --       let archiveCtx =
-  --             listField "posts" postCtx (return posts) `mappend`
-  --             constField "title" "Archives"            `mappend`
-  --             defaultContext
-  --       makeItem ""
-  --         >>= loadAndApplyTemplate "templates/archive.html" archiveCtx
-  --         >>= loadAndApplyTemplate "templates/default.html" archiveCtx
-  --         >>= relativizeUrls
+  match "posts/*" $ do
+    route $ setExtension "html"
+    compile $ pandocCompiler
+      >>= loadAndApplyTemplate "templates/post.html"    postCtx
+      >>= loadAndApplyTemplate "templates/default.html" postCtx
+      >>= relativizeUrls
+  create ["archive.html"] $ do
+    route idRoute
+    compile $ do
+        posts <- recentFirst =<< loadAll "posts/*"
+        let archiveCtx =
+              listField "posts" postCtx (return posts) `mappend`
+              constField "title" "Archive"             `mappend`
+              constField "page-archive" "" `mappend`
+              defaultContext
+        makeItem ""
+          >>= loadAndApplyTemplate "templates/archive.html" archiveCtx
+          >>= loadAndApplyTemplate "templates/default.html" archiveCtx
+          >>= relativizeUrls
 --------------------------------------------------------------------------------
--- postCtx :: Context String
--- postCtx =
---   dateField "date" "%B %e, %Y" `mappend`
---   defaultContext
+postCtx :: Context String
+postCtx =
+  dateField "date" "%B %e, %Y" `mappend`
+  defaultContext
 config :: Configuration
 config = defaultConfiguration
   {

@@ -9,6 +9,7 @@
     <link rel="stylesheet" type="text/css" href="/css/entireframework.min.css" />
     <link rel="stylesheet" type="text/css" href="/css/github-markdown.css" />
     <link rel="stylesheet" type="text/css" href="/css/custom.css" />
+    $if(css)$<link rel="stylesheet" type="text/css" href="$css$" />$endif$
   </head>
   <body>
     <nav class="nav" tabindex="-1" onclick="this.focus()">
@@ -17,7 +18,7 @@
         <a $if(page-index)$class="current"$endif$ href="/">Home</a>
         <a $if(page-about)$class="current"$endif$ href="/about.html">About</a>
         <a $if(page-irc)$class="current"$endif$ href="/irc.html">IRC</a>
-        <!-- <a href="/archive.html">Archive</a> -->
+        <a $if(page-archive)$class="current"$endif$ href="/archive.html">Archive</a>
       </div>
     </nav>
     <button class="btn-close btn btn-sm">×</button>
