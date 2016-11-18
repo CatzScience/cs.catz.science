@@ -24,10 +24,11 @@ Here is the schedule for Michaelmas 2016:
 | Univ Maths & CS Social | Thursday 5th Week (10/11/2016) | 19:00 --        | Catz Hall         | Please fill in https://goo.gl/forms/L4xnXjUe0QjVG9a12 and    |
 |                        |                                |                 |                   | don't forget to book hall on Upay!                           |
 +------------------------+--------------------------------+-----------------+-------------------+--------------------------------------------------------------+
-| CS Talks               | Friday 6th Week (18/11/2016)   | 17:00 -- 18:30  | JCR Lecture       | *Titles will appear here when announced*                     |
-|                        |                                |                 | Theatre           |                                                              |
+| CS Talks               | Friday 6th Week (18/11/2016)   | 17:00 -- 18:30  | JCR Lecture       | * 17:00 -- 17:30: Introduction to Deep Learning --- Alan Du  |
+|                        |                                |                 | Theatre           | * 17:30 -- 18:00: Haskell tips and tricks for aspiring first |
+|                        |                                |                 |                   |   years --- Nick Hu
 +------------------------+--------------------------------+-----------------+-------------------+--------------------------------------------------------------+
-| ACM International      | Saturday 6th Week (19/11/2016) | ???             | University of     | By invitation only                                           |
+| ACM International      | Saturday 6th Week (19/11/2016) | 19:00 --        | University of     | By invitation only                                           |
 | Collegiate Programming | -- Sunday 6th Week (20/11/2016)|                 | Bath              |                                                              |
 | Contest (NWERC)        |                                |                 |                   |                                                              |
 +------------------------+--------------------------------+-----------------+-------------------+--------------------------------------------------------------+
